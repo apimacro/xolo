@@ -1,0 +1,9 @@
+COMMAND,VALUE
+goto, https://c/auth/login.html
+focus, input.text.login
+write_from_file, xolo.io/.user
+focus, input.text.password
+write_from_file, xolo.io/.pass
+wait, 3000
+click, input.mid.button-green-large
+screenshot, screen.png
